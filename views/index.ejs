@@ -1,0 +1,24 @@
+<link rel='stylesheet' href='stylesheets/style.css' />
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/highcharts-more.js"></script>
+<script src="https://code.highcharts.com/modules/solid-gauge.js"></script>
+
+<div id="container">
+</div>
+<div class="container">
+    <div class="row">
+        <h1>
+            <button class="button button4" style="float: left;">-</button>
+            Setpoint
+            <button class="button button4" style="float: right;">+</button>
+            <label id="sp">75</label>
+        </h1>
+    </div>
+    <div class="row">
+        <h1>
+            Power
+            <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+        </h1>
+    </div>
+</div>
+<script src="javascripts/dials.js"></script>
